@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
 </head>
 <body>
 
@@ -38,10 +39,28 @@
                     
     -->
 
+    <div class="container">
+        <div class="box">
+            <section class="upper">
+                <h1>QR Code Generator</h1>
+                <p>Paste text or link to create QR</p>
+            </section>
+
+            <form id="qrform">
+                <input id="qrinputxt" type="text" name="qrtxt" placeholder="Enter text...">
+                <button id="genbtn" type="submit">Generate QR Code</button>
+            </form>
+
+            <section id="qr-container" class="qr-container">
+                <img id="qrimg" src="media/qr.webp" alt="">
+            </section>
+        </div>
+    </div>
+
     
-    <section id="hero">
+    <!-- <section id="hero">
     <img src="media/img(2).jpg" alt="interstellar image as background">
-    </section>
+    </section> -->
     <h1>Enter text heredsd</h1>
 </body>
 </html>
